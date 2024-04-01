@@ -1,0 +1,27 @@
+{
+  "name": "employee_tracker",
+  "version": "1.0.0",
+  "description": "allows non-developers to easily view and interactr with information stored in databases",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DTSmith17/employee_tracker.git"
+  },
+  "author": "Donte Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DTSmith17/employee_tracker/issues"
+  },
+  "homepage": "https://github.com/DTSmith17/employee_tracker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2"
+  }
+}

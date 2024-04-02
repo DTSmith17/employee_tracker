@@ -8,3 +8,13 @@ VALUES
 ('Information Technology'),
 ('Customer Relations'),
 ('Maintenance');
+
+INSERT INTO roles (title, salary, department_id)
+VALUES 
+('Marketing Manager', 125000.00, 1),
+('HR Director', 189000.00, 2),
+('Finance Head', 145000.00, 3),
+('Senior Engineer', 185000.00, 4),
+('IT Manager', 125000.00, 5),
+('Customer Relations Manager', 75000.00, 6),
+('Maintenance Manager', 135000.00, 7);

@@ -18,3 +18,13 @@ VALUES
 ('IT Manager', 125000.00, 5),
 ('Customer Relations Manager', 75000.00, 6),
 ('Maintenance Manager', 135000.00, 7);
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES
+('james', 'jones', 1, 1),
+('Randy', 'Moss', 2, 2),
+('Chris', 'Carter', 3, 3),
+('Kevin', 'Garnett', 4, 4),
+('Steph', 'Curry', 5, 5),
+('Micheal', 'Jordan', 6, 6),
+('Shaq', 'Oneal', 7, 7);

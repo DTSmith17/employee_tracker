@@ -1,5 +1,5 @@
 -- Active: 1710293330467@@127.0.0.1@3306@employeetracker_db
-INSERT INTO departments (department_name)
+INSERT INTO department (name)
 VALUES 
 ('Marketing'),
 ('Human Resources'),
@@ -9,7 +9,7 @@ VALUES
 ('Customer Relations'),
 ('Maintenance');
 
-INSERT INTO roles (title, salary, department_id)
+INSERT INTO role (title, salary, department_id)
 VALUES 
 ('Marketing Manager', 125000.00, 1),
 ('HR Director', 189000.00, 2),

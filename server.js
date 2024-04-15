@@ -108,4 +108,27 @@ function viewDepartments() {
       startingQuestion();
     });
   }
+
+  //Adding functions
+function addDepartment() {
+    inquirer
+      .prompt([
+        {
+          type: "input",
+          name: "department",
+          message: "What is the name of the department?",
+        },
+      ])
+      .then((answer) => {
+        const sql = `INSERT INTO department(name) VALUES('${answer.department}');`;
+        db.query(sql, (err, res) => {
+          if (err) {
+            console.log(err);
+            return;
+          }
+          console.log("Added " + answer.department + " to the database");
+          startingQuestion();
+        });
+      });
+  }
   
